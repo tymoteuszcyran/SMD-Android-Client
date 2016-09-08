@@ -10,6 +10,7 @@ android {
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -24,6 +25,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.0'
     compile group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.23.2'
+    compile group: 'commons-io', name: 'commons-io', version: '2.5'
+
 
 
 
